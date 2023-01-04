@@ -142,7 +142,8 @@ const submitForm = async (formEl) => {
     if (!formEl) return
     await formEl.validate((valid, fields) => {
         if (valid) {
-            console.log(proxy, 'proxy')
+            // console.log(proxy, 'proxy')
+            console.log(1)
         } else {
             // console.log('error submit!', fields)
         }
