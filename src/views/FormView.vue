@@ -144,7 +144,7 @@ const submitForm = async (formEl) => {
         if (valid) {
             console.log(proxy, 'proxy')
         } else {
-            console.log('error submit!', fields)
+            // console.log('error submit!', fields)
         }
     })
 }
